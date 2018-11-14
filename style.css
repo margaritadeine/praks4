@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Montserrat" , sans-serif;
+	
+}
+
+header {
+	background-image: url("main.jpg");
+	background-position: center bottom;
+	height: 100vh;
+	background-attachment: fixed;
+		color: white;
+}
+.hamburger {
+	display: none;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 30px;
+	padding-left: 30px;
+	float: left;
+}
+
+.main-nav{
+	font-size: 16px;
+	font-weight: 400;
+	list-style: none;
+	float: right;
+    margin-top: 35px;
+	
+	
+	
+}
+
+
+.nav-en {
+	display: inline-block;
+	padding-right: 20px;
+
+	/*text-align:right;*/
+}
+
+.nav-en a {
+	border: transparent;
+	color: #fff;
+	text-decoration: none;
+	transition-property: border;
+	cursor: pointer;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+
+
+
+.nav-en:hover a {
+	border-bottom: #fff solid 2px; 
+	
+}
+
+.main-heading {
+	font-size: 70px;
+	font-weight: 400;
+	
+}
+
+.main {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.main-text {
+	font-size: 20px;
+	font-weight: 400;
+}
+.main-btn {
+	background-color: #fff;
+	padding: 22px 56px;
+	margin-top: 20px;
+	border: none;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+	
+
+
+.main-btn  {
+	transition-property: opacity;
+}
+
+.main-btn:hover {
+	opacity: 0.7;
+}
+
+.main-text {
+	margin-bottom: 40px;
+}
+
+
+/* Mission page*/
+
+.content {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.mission-image {
+	height: 700px;
+	width: 700px !important;
+	object-fit: cover;
+	margin-right: 70px;
+	
+}
+
+.page-title , .cheese-title {
+	font-size: 50px;
+	font-weight: 400;
+}
+	
+.page-text,
+.cheese-text {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 145%;
+}
+
+
+h3 {
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.our-mission {
+display: flex;
+justify-content: space-between;
+margin-top: 180px;
+}
+
+
+.mission-descrip {
+	width: 30%;
+	text-align: justify;
+}
+
+
+/*Cheese page*/
+
+
+.four , .five , .six  {
+	height: 200px;
+	width: 300px;
+	padding: 0 10px;	
+}
+
+
+.four , .five , .six  {
+	transition: opacity 0.2s;
+}
+
+.four:hover,
+.five:hover,
+.six:hover {
+	opacity: 0.7;
+}
+
+
+.our-cheese {
+	margin-top: 50px;
+
+}
+
+.box {
+	width: 300px;
+	text-align: justify;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.cheese-text {
+	padding: 0 10px;
+}
+.cheese-title {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 100px;
+}
+	
+
+
+
+/* Tours page*/
+
+.tours-image {
+	height: 700px;
+	width: 700px !important;
+	object-fit: cover;
+	
+}
+
+.tours-text {
+	width: 30%;
+	text-align: justify;
+	
+}
+.page-title {
+	padding-bottom: 20px;
+}
+
+.tours{
+	
+display: flex;
+justify-content: space-between;
+margin-top: 180px;
+
+
+}
+
+.footer-pic {
+	
+display: flex;
+justify-content: space-around;
+width: 15%;
+margin: 0px auto 30px auto;
+padding-top: 60px;
+}
+
+.footer-text {
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.icon {
+	height: 20px;
+}

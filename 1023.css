@@ -1,0 +1,174 @@
+@media only screen  and (max-width: 1023px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+.hamburger {
+	display: none;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 30px;
+	float: left;
+}
+
+
+
+
+.main {
+	position: absolute;
+	width: 90%;
+	top: 50%;
+}
+
+.main-text {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+/* Mission page*/
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mission-image {
+	height: 300px;
+	width: 300px !important;
+	object-fit: cover;
+	margin-right: 25px;
+	
+}
+
+
+
+.our-mission {
+display: flex;
+justify-content: left;
+margin-top: 70px;
+}
+
+
+.mission-descrip {
+	width: 55%;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+/*Cheese page*/
+
+
+.four , .five , .six  {
+	
+	width: 100%;
+	height: auto;
+	
+	margin: 0 auto;
+}
+
+.box {
+	width: 90%;
+
+}
+
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+
+.cheese-text {
+	padding: 0 0 20px 0;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.cheese-title {
+	
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+	
+
+
+
+/* Tours page*/
+
+.tours-image {
+	height: 300px;
+	width: 300px !important;
+	object-fit: cover;
+	margin-left: 25px;
+	
+	
+}
+
+.tours-text {
+	width: 55%;
+	text-align: justify;
+	
+}
+.page-title {
+	padding-bottom: 20px;
+}
+
+.tours{
+	
+display: flex;
+justify-content: right;
+margin-top: 70px;
+
+
+}
+
+.footer-pic {
+	
+display: flex;
+justify-content: space-around;
+width: 15%;
+margin: 0px auto 30px auto;
+padding-top: 60px;
+}
+
+.footer-text {
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.icon {
+	height: 20px;
+}
+}
+
